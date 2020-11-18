@@ -5,6 +5,7 @@ Website to Learn About HTML with incline CSS
 UNDER CONSTRUCTION
 
 ---
+
 ## Text Data
 
 ### Title for the Project
@@ -28,5 +29,5 @@ This website is used to demonstrate how to build a webpage, and later on how to 
 ### 50-Word Description of Myself
 I am a High School Student currently residing in Canada. This website will display my digital profile while also creating a public website. This is my first time creating and publishing a website for many people to view. I love to read lots of books, read and write poetry, and I enjoy playing volleyball.
 
-### 50-Word Description of Career Plans
-I would love to specialize in the current sciences such as learning medicine and exceling in forensic sciences. My current path is to complete my high school studies, successfully graduate, and complete a few courses in greater institutions such NAIT and the University of Alberta, and engage in forensic sciences courses.
+### 50-Word Description of My Career Plans
+I would love to specialize in the current sciences such as learning medicine and excelling in forensic sciences. My current path is to complete my high school studies, successfully graduate, and complete a few courses in greater institutions such NAIT and the University of Alberta, and engage in forensic sciences courses.

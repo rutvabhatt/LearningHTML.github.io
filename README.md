@@ -18,7 +18,7 @@ A Building Page about Rutva Bhatt's digital presence
 20201118 | November 18, 2020
 
 ### Last Date Modified
-20201119 | November 19, 2020
+20201120 | November 20, 2020
 
 ### Author
 Rutva Bhatt

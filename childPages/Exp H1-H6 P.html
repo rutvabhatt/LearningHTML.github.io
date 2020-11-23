@@ -5,7 +5,7 @@
     <!--Used by keybroad-->
     <meta charset="utf-8">
 
-    <title>Learning HTML</title>
+    <title>Child Template Webpage</title>
 
     <!--Used by Browser or Google Search-->
     <meta name="author" content="Rutva Bhatt">
@@ -26,32 +26,35 @@
     <!-- Already specified in the charset above-->
   </head>
   <body>
-    <header><h1>Header Title</h1></header>
-      <nav><h1>Navigation</h1></nav>
-      <aside><p>This is the aside space.</p></aside>
-      <section>
-      <h3>Section 1</h3>
-      <article>
-        <p>This is article 1 in section 1.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 1.</p>
-      </article>
-    </section>
+    <header><h1>Header Title #1 in H1</h1></header>
+    <header><h1 style="font-size:4.5vw">Header Title #2 in H1 using viewport in inline CSS</h1></header>
+    <nav><h1>Navigation Menu in H1</h1></nav>
+    <aside><p>This is the aside space in a paragraph tag.</p></aside>
     <section>
-      <h3>Section 2</h3>
+      <h1>Section 1 is in H1, notice the changes in font-size, bolding, and spaces.</h1>
       <article>
-        <p>This is article 1 in section 2.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 2.</p>
+        <h1>This is a Section / Article  in H1 should be the largest.</h1>
+        <h2>This is a Section / Article  in H2.</h2>
+        <h3>This is a Section / Article  in H3.</h3>
+        <h4>This is a Section / Article  in H4.</h4>
+        <h5>This is a Section / Article  in H5.</h5>
+        <h6>This is a Section / Article  in H6, this should be the smallest.</h6>
+        <p>This is a Section / Article  in p-tag, notice the next two h-tags are not recongnized, H7 and H8 do not exist</p>
+        <h7>This is a Section / Article  in H7.</h7>
+        <h8>This is a Section / Article  in H8.</h8>
+        <p>This is a Section / Article in p-tag, notice the next two lines need break-tags added</p>
+        <h7>This is a Section / Article  in H7.</h7>
+        <br>
+        <h8>This is a Section / Article  in H8.</h8>
+        <br>
+        <p style="font-size:1.5vw">This is a Section / Article in p-tag using viewport as inlince CSS, this should be for regualr text, the last tag experimented with.</p>
       </article>
     </section>
   </body>
 
   <footer>
     <blockquote cite="https://www.brainyquote.com/quotes/rumi_133529">
-      <!-- Date Accessed 20201120--> >
+      <!-- Date Accessed 20201120-->
     </blockquote>
     <p>
       <strong>"Let the beauty of what you love be what you do."</strong><em>
@@ -60,8 +63,5 @@
       </em>
     </p>
     <p>&copy Rutva Bhatt, powered by rutvabhatt in GitHub</p>
-
   </footer>
-
-
 </html>

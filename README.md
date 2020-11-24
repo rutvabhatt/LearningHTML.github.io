@@ -1,24 +1,24 @@
 # LearningHTML.github.io
 
-Website to Learn About HTML with incline CSS
+Website to Learn About HTML with inline CSS
 
 UNDER CONSTRUCTION
 
 ---
 
-<b>## Text Data</b>
+## Text Data
 
 ### Title for the Project
 Webpage Building
 
 ### 10 Word Summary
-A Building Page about Rutva Bhatt's digital presence
+A Building Page about HTML with inline CSS and Websites
 
 ### Date Started
 20201118 | November 18, 2020
 
 ### Last Date Modified
-20201120 | November 20, 2020
+20201123 | November 23, 2020
 
 ### Author
 Rutva Bhatt

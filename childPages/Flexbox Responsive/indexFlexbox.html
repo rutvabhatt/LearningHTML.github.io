@@ -1,52 +1,85 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-    <!--Used by keybroad-->
+  <head>
+    <!-- Used by keyboard -->
     <meta charset="utf-8">
-
     <title>Learning HTML</title>
 
-    <!--Used by Browser or Google Search-->
+    <!-- Used by Browser or Google Search-->
     <meta name="author" content="Rutva Bhatt">
     <meta name="description" content="Learning HTML by building a simple Website">
     <meta name="keywords" content="boilerplate, starter code, HTML, learning">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
     <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
 
     <!-- Other meta attributes to be aware of -->
-
     <!-- meta http-equiv="refresh" content="30"-->
+
     <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
     <!-- Use this when refreshes are needed -->
 
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
 
-  </head>
-  <body>
-    <div>
-      <header><h1 style="font-size:5.5vw">Learning HTML</h1></header>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      /* div {border: thin dotted red;} */
+
+      .header {
+        border: 1px solid purple;
+        padding: 15px;
+      }
+      /* div {border: 1px dotted red;} */
+
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid green;
+      }
+      /* div {border: 1px dotted red;} */
+
+      .main {
+        width: 50%;
+        float: left;
+        padding: 15px;
+        border: 1px solid purple;
+      }
+      /* div {border: 1px dotted red;} */
+
+      .aside {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid green;
+      }
+      /* div {border: 1px dotted red;} */
+
+      .footer {
+        border: 1px solid purple;
+        padding: 15px;
+      }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+      <header><h1 style="font-size:5.5vw" Flexbox Testing></h1></header>
     </div>
-      <nav><h1>Navigation</h1></nav>
-      <aside><p>This is the aside space.</p></aside>
-      <section>
-      <h1>Section 1</h1>
-      <article>
-        <p>This is article 1 in section 1.</p>
-      </article>
-      </section>
-    <section>
-      <h2>Section 2</h2>
-      <article>
-        <p>This is article 1 in section 2.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 2.</p>
-      </article>
-    </section>
-    <section>
+
+    <div class="menu">
+        <section>
+          <nav><h3 style="font-size:2.5vw">Navigation</h3></nav>
+    </div>
+
+    <div class="main">
       <h3>Section 3</h3>
       <article>
         <p style="font-size:1.75vw" type="A">Hyperlinks to Additional Experiment Pages: </p>
@@ -55,7 +88,7 @@
             <a href="childPages\childTemplate.html" target="_blank">click here</a></li>
           <li style="font-size:1.5vw"> Divisions:
             <a href="childPages\Exp DIVs.html" target="_blank">click here</a></li>
-          <li style="font-size:1.5vw"> heading and Paragraph Tags:
+          <li style="font-size:1.5vw"> Heading and Paragraph Tags:
             <a href="childPages\Exp H1-H6 P.html" target="_blank">click here</a></li>
           <li style="font-size:1.5vw"> Subscript and Superscript:
             <a href="childPages\Exp Sub and Superscript.html" target="_blank">click here</a></li>
@@ -65,10 +98,14 @@
             <a href="childPages\Flexbox Responsive/indexFlexbox.html" target="_blank">click here</a></li>
         </ul>
       </article>
-    </section>
-</body>
+    </div>
 
-  <footer>
+    <div class="aside">
+     <aside><p>This is the aside space. No viewport in p-tag.</p></aside>
+   </div>
+ </body>
+
+ <footer>
     <blockquote cite="https://www.brainyquote.com/quotes/rumi_133529">
       <!-- Date Accessed 20201120-->
     </blockquote>
@@ -79,8 +116,4 @@
       </em>
     </p>
     <p>&copy Rutva Bhatt, powered by rutvabhatt in GitHub</p>
-
   </footer>
-
-
-</html>
